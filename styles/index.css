@@ -21,8 +21,12 @@ body {
     color: var(--text-white);
     font-size: 18px;
 
-    margin-top: 44px; /* Required for fixed navbar, as fixed elements don't push other elements. */
-    margin-left: 4px; /* More readable(?) if intruded to the right */
+    margin-left: -8px;
+    margin-top: -8px;
+    /*margin-top: 44px; /* Required for fixed navbar, as fixed elements don't push other elements. 
+    margin-left: 4px; /* More readable(?) if intruded to the right */ /* Objection: Gross. Use padding.*/
+    padding-top: 24px;
+    padding-left: 14px;
 }
 #content a {
     color: var(--hypertext-lime)
