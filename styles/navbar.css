@@ -24,7 +24,7 @@
     text-decoration: none;
     border-radius: 6px;
 }#navbar>a:not(.active):hover{
-    animation: inactive-hover 0.1s forwards;
+    animation: inactive-hover 0.1s forwards; /* Sick hover animation */
 }#navbar>a.active{
     color: var(--text-black);
     background-color: var(--text-white);
