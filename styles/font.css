@@ -1,8 +1,0 @@
-:root {
-    --text-font: Arial, Helvetica, sans-serif;
-
-    font-family: var(--text-font); /*Set default font family to --text-font*/
-}
-font-comic {
-    font-family: 'Comic Sans MS', var(--text-font);
-}
